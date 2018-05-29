@@ -1,0 +1,46 @@
+body {
+    background: lightgrey;
+}
+
+#content {
+    width: 50%;
+    margin: 0 auto;
+    max-height: 400px;
+    overflow: hidden;
+    background: #fff;
+    padding: 30px;
+    line-height: 1.5;
+    
+    transition: 0.5s;
+}
+
+#content.open {
+    max-height: 550px;
+    transition: 0.5s;
+}
+
+#content p {
+    padding-bottom: 30px;
+    text-align: justify;
+}
+
+#button {
+    background: blue;
+    color: #fff;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: arial;
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    text-align: center;
+    
+    transition: 1s;
+    cursor: pointer;
+}
+
+form {
+    background: #fff;
+    margin: 40px;
+}
